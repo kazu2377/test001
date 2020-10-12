@@ -1,0 +1,76 @@
+
+.base {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.class1 {
+  width: 250px;
+  height: 100%;
+}
+ 
+.class2 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+}
+ 
+body{ 
+ background-color:#000000;
+ color:white;
+ text-align:center;
+ }
+
+.mainContainer{
+ width:100% - 30px;
+ height:auto - 60px;
+ margin-top:50px;
+ text-align:center;
+ align-items:center;
+ min-width:calc(100vw - 300px);
+ overflow:hidden;
+}
+
+.reminderContainer{
+ width:500px;
+ height:auto;
+ padding:20px;
+ text-align:center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.ul-align-center{
+ display: flex;
+ text-align:left;
+ align-items: center;
+ flex-direction: column;
+}
+
+.blink {
+ animation: blinkAnime 1s infinite alternate;
+}
+@keyframes blinkAnime{
+ 0%{color: #FF0000}
+ 25%{color: #FFFF00}
+ 50%{color: #FF6600}
+ 75%{color: #00FF00}
+ 100%{color: #00FFFF}
+}
+
+.link{
+ color:white;
+ text-decoration: none;
+}
+
+a{
+ color:white;
+ text-decoration: none;
+}
+
+input[type="button"] {
+ font-weight: bold;
+ width: 150px;
+}
